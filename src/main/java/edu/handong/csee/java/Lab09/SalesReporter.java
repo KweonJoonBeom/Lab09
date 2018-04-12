@@ -5,8 +5,7 @@ import java.util.Scanner;
  * This program is that program generate a sales report.
  * In detail, this program print out associates(salesmen) that have the highest sales
 	and How the sales of each associate compare to the average
- * @author °ÇÁØ¹ü
- * 
+ * @author KweonJoonBeom
  *
  */
 

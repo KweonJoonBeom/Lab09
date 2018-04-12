@@ -1,7 +1,7 @@
 package edu.handong.csee.java.Lab09;
 /**
  * 
- * @author °ÇÁØ¹ü
+ * @author KweonJoonBeom
  *Through public SalesMen, users can sets or gets some information of salesmen.
  *This Class would be used in SalesReorter class. 
  */
