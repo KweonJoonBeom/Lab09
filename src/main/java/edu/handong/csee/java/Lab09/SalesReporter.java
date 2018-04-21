@@ -55,14 +55,14 @@ public class SalesReporter { //print out information of salesmen
 
 			System.out.print("Enter associate's sales:"); //print out
 			double sales = myScanner.nextDouble(); //get double type variable
-			String temp = myScanner.nextLine();
-			team.add(new SalesMen(name,sales));
-			i++;
-			System.out.print("Addition to more data?(Y or N) ");
+			String temp = myScanner.nextLine(); //avoid new line input 
+			team.add(new SalesMen(name,sales)); // add name,sales to SalesMen
+			i++; // i=i+1
+			System.out.print("Addition to more data?(Y or N) "); //print out yes or no about addition to more data?
 			
-			String answer = myScanner.nextLine();
+			String answer = myScanner.nextLine(); // input the stirng
 			
-			if(answer.equals("N")) break;
+			if(answer.equals("N")) break; //if user input the N then break
 			}
 		
 	}

@@ -17,9 +17,9 @@ public class SalesMen { // public SalesMen
 	 * @return
 	 * we do to return value or designate somethings
 	 */
-	public SalesMen(String name,double sales) {
-		this.name =name;
-		this.sales = sales;
+	public SalesMen(String name,double sales) {//consturt
+		this.name =name; //initialize name
+		this.sales = sales; // initialize sales
 	}
 	
 	public String getCompare() { //getCompare method
