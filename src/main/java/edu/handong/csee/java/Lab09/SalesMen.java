@@ -17,6 +17,11 @@ public class SalesMen { // public SalesMen
 	 * @return
 	 * we do to return value or designate somethings
 	 */
+	public SalesMen(String name,double sales) {
+		this.name =name;
+		this.sales = sales;
+	}
+	
 	public String getCompare() { //getCompare method
 		return compare; //return value
 	}
