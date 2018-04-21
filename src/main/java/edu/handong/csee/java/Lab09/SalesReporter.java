@@ -42,11 +42,11 @@ public class SalesReporter { //print out information of salesmen
 
 	public void getData() { //getData method
 
-		 //new object team 
+		//new object team 
 		int i=0;
 
 		while(true){ //input salesMen information  
- 
+
 			Scanner myScanner = new Scanner(System.in); //use Scanner method
 			System.out.println("Enter data for associate number "+ (i+1)); //print out message
 
@@ -59,12 +59,12 @@ public class SalesReporter { //print out information of salesmen
 			team.add(new SalesMen(name,sales)); // add name,sales to SalesMen
 			i++; // i=i+1
 			System.out.print("Addition to more data?(Y or N) "); //print out yes or no about addition to more data?
-			
+
 			String answer = myScanner.nextLine(); // input the stirng
-			
+
 			if(answer.equals("N")) break; //if user input the N then break
-			}
-		
+		}
+
 	}
 	public void computeSates() {//compute salesmen's sales 
 

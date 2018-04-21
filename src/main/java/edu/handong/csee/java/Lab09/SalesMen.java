@@ -21,7 +21,7 @@ public class SalesMen { // public SalesMen
 		this.name =name; //initialize name
 		this.sales = sales; // initialize sales
 	}
-	
+
 	public String getCompare() { //getCompare method
 		return compare; //return value
 	}
